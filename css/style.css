@@ -34,3 +34,13 @@ body {
 footer {
   background-color: #007bff;
 }
+
+/* Efeito flutuante nos Cards */
+.card {
+  transition: tranform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px); /* sobe um pouco */
+  box-shadow: 0 8px 20px rgb(0, 0, 0, 0.15); /* Aumenta a sombra */
+}
